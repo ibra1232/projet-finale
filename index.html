@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University sesame</title>
+    <link rel="icon" type="x-icon" href="logo1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="informatique.html">informatique</a></li>
+                <li><a href="managment.html">managment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="./téléchargement.jpg" height="400" width="800">           
+            <img class="mySlides" src="./sesam.jpg" height="400" width="800">
+            <img class="mySlides" src="./téléchargement.jpg" height="400" width="800">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        
+   
+
+    <section class="form-section">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" placeholder="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Besoin d'aide ? <br> Appelez notre équipe de support technique au 95 945 270</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
